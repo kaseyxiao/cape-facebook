@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/xiaoqian/Dropbox/research/Web_codes/Workspace/cac_python"
+		}
+	],
+	"build_systems":
+    [
+        {
+            "name": "CAC",
+            // activate the specific virtualenv for the project
+            "cmd": ["source", "./venv/bin/activate"],
+            // now indicates a different folder to run the next cmd
+            "working_dir": "./"
+            // runs the test
+            //"cmd": ["python", "manage.py", "test"]
+        }
+    ]
+}

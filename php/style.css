@@ -1,0 +1,119 @@
+
+/* login page*/
+
+#login {
+    font-family: arial;
+    font-size: 26px;
+    text-align: center;
+    line-height: 46px;
+}
+#login img {
+    vertical-align: bottom;
+}
+
+/* main page */
+
+#headercontent {
+    margin: auto;
+    width: calc(800px + 2em);
+}
+
+#header {
+    background: #4e69a2;
+    background: linear-gradient(to bottom, #4e69a2 0%,#3d4e7e 100%);
+    border-radius: 9px;
+    padding: 10px;
+    height: 50px;
+    position: relative;
+}
+#header h1 { 
+    line-height: 50px;
+    margin: 0;
+}
+#menubar {
+    float: right;
+    font-size: 80%;
+    margin-right: 1em;
+}
+#menubar li {
+    display: block;
+}
+#logged {
+    margin-left: calc(2em - 100px);
+    width: calc(800px + 2em + 100px);
+}
+#header, #header a {
+    font-family: sans-serif;
+    color: white;
+}
+#logged > img {
+    float:  left;
+    height: 50px;
+    width:  50px;
+    margin-right: 1em;
+}
+
+#content {
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    box-shadow: 0 0 10px #CCCCCC;
+    margin: auto;
+    padding: 1em;
+    width: 800px;
+}
+
+/* sliders */
+
+.ui-slider-handle {
+    background: linear-gradient(to bottom, #4e69a2 0%,#3d4e7e 100%) !important;
+}
+
+.slider {
+    width: 300px;
+    margin: 0 1em;
+}
+input[type='text'] {
+    text-align: right;
+    width: 4em;
+}
+
+/* tables */
+
+#feedback td:nth-child(2) {
+    width: 20em;
+    text-align: center;
+}
+
+#pescore td:nth-child(4)::after {
+    content: "%";
+}
+#pescore td:nth-child(1) {
+    width: 60px;
+}
+
+#iscore table {
+    margin: 1em 0;
+}
+#iscore table td:first-child {
+    text-align: right;
+}
+
+.makeDefault {
+    display: block;
+    font-size: 70%;
+    text-align: center;
+}
+
+/* error */
+
+.error:before {
+    content: "ERROR: ";
+    font-weight: bold;
+}
+.error {
+    color: #FF0000;
+}
+
+.debug {
+    background-color: #D3D3D3;
+}
